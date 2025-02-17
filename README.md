@@ -1,7 +1,7 @@
 # Autoscaling Image Recognition Application in the Cloud
 
 ## Overview
-This project demonstrates the development of a scalable face recognition system deployed on AWS. By leveraging EC2, SQS, S3, IAM, and Python, the system is designed to handle high volumes of requests efficiently. Custom auto-scaling is implemented to manage 200 requests within 120 seconds, and web server performance is optimized using Redis caching and AWS CloudWatch.
+This project demonstrates the development of a scalable deep learning face recognition system deployed on AWS. By leveraging EC2, SQS, S3, IAM, and Python, the system is designed to handle high volumes of requests efficiently. Custom auto-scaling is implemented to manage 200 requests within 120 seconds, and web server performance is optimized using Redis caching and AWS CloudWatch.
 
 ## Features
 - **Scalable Face Recognition**: Deployed on EC2 instances, decoupled frontend and backend using SQS.
